@@ -1,9 +1,28 @@
-$light-green: #CEECF4;
 $b-white: #FBFBFC;
 $b-black: #131212;
 $red: #dfc3d7;
 
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,400;0,700;1,300&display=swap');
+
+html {
+    --scrollbarBG: rgba(255, 255, 255, 0.048);
+    --thumbBG: #512A56;
+  }
+  body::-webkit-scrollbar {
+    width: 15px;
+  }
+  body {
+    scrollbar-width: thin;
+    scrollbar-color: var(--thumbBG) var(--scrollbarBG);
+  }
+  body::-webkit-scrollbar-track {
+    background: var(--scrollbarBG);
+  }
+  body::-webkit-scrollbar-thumb {
+    background-color: var(--thumbBG);
+    border-radius: 6px;
+    border: 3px solid var(--scrollbarBG);
+  }
 
 
 body {
@@ -15,7 +34,6 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-  
 }
 
 .unl {
