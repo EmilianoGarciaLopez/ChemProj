@@ -32,13 +32,13 @@ body {
 }
 
 ::-moz-selection {
-  color: #002839;
-  background-color: #dff4fa;
+  color: #131212;
+  background-color: #dfc3d7;
 }
 
 ::selection {
-  color: #002839;
-  background-color: #dff4fa;
+  color: #131212;
+  background-color: #dfc3d7;
 }
 
 a {
