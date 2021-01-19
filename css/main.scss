@@ -179,6 +179,7 @@ img.grad {
     margin: 0;
     z-index: -2;
     margin: 0% 0 -5% 0;
+    pointer-events: none;
 }
 
 .sec-r {
@@ -193,6 +194,7 @@ img.grad {
     img {
         width: 45%;
         transition: .4s ease-in-out;
+        pointer-events: none;
     }
     img:hover {
         transform: scale(1.02);
@@ -221,6 +223,7 @@ img.grad {
     img {
         width: 45%;
         transition: .4s ease-in-out;
+        pointer-events: none;
     }
     img:hover {
         transform: scale(1.02);
@@ -283,7 +286,8 @@ img.grad {
 
     img.grad {
         margin: -8vh 0 0 0;
-        height: 45vh
+        height: 45vh;
+        pointer-events: none;
     }
 
 
@@ -294,6 +298,7 @@ img.grad {
         img {
             width: 85%;
             border-radius: 15px;
+            pointer-events: none;
         }
 
         .cont {
