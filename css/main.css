@@ -401,7 +401,7 @@ img.grad {
 }
 
 .sources {
-  padding-top: 6%;
+  padding-top: 3%;
   width: 80%;
   max-width: 1536px;
   display: -webkit-box;
@@ -420,6 +420,6 @@ img.grad {
 }
 
 .sources p {
-  font-size: 120%;
+  font-size: 140%;
 }
 /*# sourceMappingURL=main.css.map */
