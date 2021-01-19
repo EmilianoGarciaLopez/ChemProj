@@ -407,7 +407,7 @@ img.grad {
 
 .sources {
   padding: 3% 0;
-  width: 80%;
+  width: 95vw;
   max-width: 1536px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -422,5 +422,12 @@ img.grad {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+
+.sources p {
+  font-size: 100%;
+  padding: 0;
+  margin: 1% 0;
+  width: 80vw;
 }
 /*# sourceMappingURL=main.css.map */

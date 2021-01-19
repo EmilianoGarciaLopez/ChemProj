@@ -347,14 +347,19 @@ img.grad {
 
 .sources {
     padding: 3% 0;
-    width: 80%;
+    width: 95vw;
     max-width: 1536px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 
-
+    p {
+        font-size: 100%;
+        padding: 0;
+        margin: 1% 0;
+        width: 80vw;
+    }
 
 }
 
