@@ -406,7 +406,7 @@ img.grad {
 }
 
 .sources {
-  padding-top: 3%;
+  padding: 3% 0;
   width: 80%;
   max-width: 1536px;
   display: -webkit-box;
