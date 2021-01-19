@@ -1,6 +1,6 @@
 $light-green: #CEECF4;
 $b-white: #FBFBFC;
-$b-black: #181517;
+$b-black: #131212;
 $red: #bb92b0;
 
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,400;0,700;1,300&display=swap');
@@ -109,13 +109,13 @@ nav {
         z-index: 9999;
         width: 100%;
         height: 100vh;
-        background: linear-gradient(45deg, #0c0c0c 0%,#012029 100%);
+        background: linear-gradient(45deg, #204988 0%,#701637 100%);
         justify-content: center;
         align-items: center;
     
         .content {
             display: flex;
-            height: 35%;
+            height: 15%;
             width: 90%;
             flex-direction: column;
             justify-content: space-between;
@@ -142,6 +142,7 @@ nav {
     padding: 8% 0 0 0;
     width: 80%;
     max-width: 1536px;
+    height: 52vh;
 
         .huge {
             font-size: 20vw;
@@ -172,7 +173,7 @@ img.grad {
     align-items: center;
     justify-content: space-between;
     padding: 0;
-    width: 75%;
+    width: 80%;
     max-width: 1440px;
 
     img {
@@ -187,7 +188,7 @@ img.grad {
         width: 40%;
 
         p {
-            font-size: 110%;
+            font-size: 120%;
             line-height: 170%;
             
         }
@@ -200,7 +201,7 @@ img.grad {
     align-items: center;
     justify-content: space-between;
     padding: 8% 0;
-    width: 75%;
+    width: 80%;
     max-width: 1440px;
 
     img {
@@ -215,7 +216,7 @@ img.grad {
         width: 40%;
 
         p {
-            font-size: 110%;
+            font-size: 120%;
             line-height: 170%;
             
         }
@@ -237,31 +238,28 @@ img.grad {
 
         .SC {
             display: flex;
-            color: $b-white;
             padding: 0;
             margin: 0;
             h1 {
-                font-size: xx-large;
+                font-size: 45px;
+                color: white;
             }
         }
         .hamburger {
             display: flex;
             padding: 0;
             margin: 0;
-            width: 30px;
+            width: 40px;
 
         }
     }
     .hero{
-        width: 100%;
-        height: 100vh;
-        flex-direction: column-reverse;
-        padding: 0;
-        padding: 2vh 0 0 0;
+        width: 85%;
+        height: 75vh;
+        flex-direction: column;
 
         .huge {
-            width: 62vw;
-            font-size: xx-large;
+            font-size: 21vw;
         }
 
         .smaller {
@@ -275,18 +273,16 @@ img.grad {
     }
 
 
-    .about {
+    .sec-l, .sec-r {
         flex-direction: column;
         width: 100%;
-        padding: 0;
-        margin-top: -17vh;
 
         img {
             width: 85%;
             border-radius: 15px;
         }
 
-        .jen {
+        .cont {
             width: 85%;
             margin: 12% 0;
             h1 {
@@ -295,6 +291,7 @@ img.grad {
             p {
                 font-size: medium;
                 line-height: 20pt;
+                padding-bottom: 15px;
             }
         }
     }
@@ -321,6 +318,25 @@ img.grad {
         .huge {
             font-size: 384px;
         }
+    }
+
+}
+
+.footer {
+    padding: 5% 0 0.5%;
+}
+
+.sources {
+    padding-top: 6%;
+    width: 80%;
+    max-width: 1536px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    p {
+        font-size: 120%;
     }
 
 }

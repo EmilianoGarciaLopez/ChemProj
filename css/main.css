@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,400;0,700;1,300&display=swap");
 body {
   font-family: 'Nunito', sans-serif;
-  background-color: #181517;
+  background-color: #131212;
   color: #FBFBFC;
   margin: 0;
   padding: 0;
@@ -135,7 +135,7 @@ nav #nav-overlay {
   z-index: 9999;
   width: 100%;
   height: 100vh;
-  background: linear-gradient(45deg, #0c0c0c 0%, #012029 100%);
+  background: linear-gradient(45deg, #204988 0%, #701637 100%);
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -148,7 +148,7 @@ nav #nav-overlay .content {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  height: 35%;
+  height: 15%;
   width: 90%;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -184,6 +184,7 @@ nav #nav-overlay .content a h1 {
   padding: 8% 0 0 0;
   width: 80%;
   max-width: 1536px;
+  height: 52vh;
 }
 
 .hero .huge {
@@ -222,7 +223,7 @@ img.grad {
       -ms-flex-pack: justify;
           justify-content: space-between;
   padding: 0;
-  width: 75%;
+  width: 80%;
   max-width: 1440px;
 }
 
@@ -242,7 +243,7 @@ img.grad {
 }
 
 .sec-r .cont p {
-  font-size: 110%;
+  font-size: 120%;
   line-height: 170%;
 }
 
@@ -261,7 +262,7 @@ img.grad {
       -ms-flex-pack: justify;
           justify-content: space-between;
   padding: 8% 0;
-  width: 75%;
+  width: 80%;
   max-width: 1440px;
 }
 
@@ -281,7 +282,7 @@ img.grad {
 }
 
 .sec-l .cont p {
-  font-size: 110%;
+  font-size: 120%;
   line-height: 170%;
 }
 
@@ -303,12 +304,12 @@ img.grad {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    color: #FBFBFC;
     padding: 0;
     margin: 0;
   }
   nav .SC h1 {
-    font-size: xx-large;
+    font-size: 45px;
+    color: white;
   }
   nav .hamburger {
     display: -webkit-box;
@@ -316,21 +317,18 @@ img.grad {
     display: flex;
     padding: 0;
     margin: 0;
-    width: 30px;
+    width: 40px;
   }
   .hero {
-    width: 100%;
-    height: 100vh;
+    width: 85%;
+    height: 75vh;
     -webkit-box-orient: vertical;
-    -webkit-box-direction: reverse;
-        -ms-flex-direction: column-reverse;
-            flex-direction: column-reverse;
-    padding: 0;
-    padding: 2vh 0 0 0;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
   .hero .huge {
-    width: 62vw;
-    font-size: xx-large;
+    font-size: 21vw;
   }
   .hero .smaller {
     font-size: 100%;
@@ -339,29 +337,28 @@ img.grad {
     margin: -8vh 0 0 0;
     height: 45vh;
   }
-  .about {
+  .sec-l, .sec-r {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
     width: 100%;
-    padding: 0;
-    margin-top: -17vh;
   }
-  .about img {
+  .sec-l img, .sec-r img {
     width: 85%;
     border-radius: 15px;
   }
-  .about .jen {
+  .sec-l .cont, .sec-r .cont {
     width: 85%;
     margin: 12% 0;
   }
-  .about .jen h1 {
+  .sec-l .cont h1, .sec-r .cont h1 {
     font-size: xx-large;
   }
-  .about .jen p {
+  .sec-l .cont p, .sec-r .cont p {
     font-size: medium;
     line-height: 20pt;
+    padding-bottom: 15px;
   }
 }
 
@@ -378,5 +375,32 @@ img.grad {
   .hero .huge {
     font-size: 384px;
   }
+}
+
+.footer {
+  padding: 5% 0 0.5%;
+}
+
+.sources {
+  padding-top: 6%;
+  width: 80%;
+  max-width: 1536px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.sources p {
+  font-size: 120%;
 }
 /*# sourceMappingURL=main.css.map */
